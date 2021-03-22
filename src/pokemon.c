@@ -3477,7 +3477,7 @@ bool8 sub_80688F8(u8 caseId, u8 battlerId)
 }
 
 
-static u16 GetDeoxysStat(struct Pokemon *mon, s32 statId)
+/*static u16 GetDeoxysStat(struct Pokemon *mon, s32 statId)
 {
     s32 ivVal, evVal;
     u16 statValue = 0;
@@ -3521,7 +3521,7 @@ void SetDeoxysStats(void)
         SetMonData(mon, MON_DATA_SPDEF, &value);
     }
 }
-
+*/
 
 u16 GetUnionRoomTrainerPic(void)
 {
