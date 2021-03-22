@@ -211,6 +211,7 @@ void NewGameInitData(void)
     gSaveBlock2Ptr->activeQuest = 0;
     memset(&gSaveBlock2Ptr->follower, 0, sizeof(gSaveBlock2Ptr->follower));
     gSaveBlock2Ptr->expShare = 0;
+    gSaveBlock2Ptr->autoRun = FALSE;
 }
 
 static void ResetMiniGamesResults(void)
