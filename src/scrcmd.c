@@ -2377,8 +2377,12 @@ bool8 ScrCmd_questmenu(struct ScriptContext *ctx)
     
     return TRUE;
 
+}
+
 // follow me script commands
 #include "follow_me.h"
+
+
 bool8 ScrCmd_setfollower(struct ScriptContext *ctx)
 {
     u8 localId = ScriptReadByte(ctx);
