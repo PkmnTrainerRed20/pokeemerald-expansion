@@ -3674,6 +3674,7 @@ static void Cmd_getexp(void)
             gBattleScripting.getexpState++;
             gBattleStruct->expGetterMonId = 0;
             gBattleStruct->sentInPokes = sentIn;
+			}
         }
         // fall through
     case 2: // set exp value to the poke in expgetter_id and print message
