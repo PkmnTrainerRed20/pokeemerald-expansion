@@ -210,6 +210,7 @@ void NewGameInitData(void)
     memset(&gSaveBlock2Ptr->completedQuests, 0, sizeof(gSaveBlock2Ptr->completedQuests));
     gSaveBlock2Ptr->activeQuest = 0;
     memset(&gSaveBlock2Ptr->follower, 0, sizeof(gSaveBlock2Ptr->follower));
+    gSaveBlock2Ptr->expShare = 0;
 }
 
 static void ResetMiniGamesResults(void)
